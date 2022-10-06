@@ -1,0 +1,140 @@
+#barraNavegacao {
+    text-align: center;
+}
+
+nav button {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: none;
+    padding: 0 56px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 7px;
+    background-color: #0070f3;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+    transition: background 0.2s ease,color 0.2s ease,box-shadow 0.2s ease;
+}
+
+#barraNavegacao button:hover{
+    background: rgba(0,118,255,0.9);
+    box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
+}
+
+#errr{
+    color:red;
+}
+
+#imgsas{
+    display: block;
+    width:10%;
+    height:10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    color: black;
+    text-align: center;
+}
+
+#div_log{
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#login {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0vh;
+    text-align:center;
+    width:100%;
+    clear: both;
+}
+
+#admBody{
+    background-color: rgba(77,81,90,255);
+}
+
+#labBody{
+    background-color: rgba(0,162,232,255);
+}
+
+#medBody{
+    background-color: rgba(28,201,201,255);
+}
+
+#pacBody{
+    background-color: rgba(241,94,78,255);
+}
+
+#indexBody{
+    background-color: white;
+}
+
+.tabelas{
+    padding-top: 20px;
+
+}
+
+fieldset{
+    margin-right: 80%;
+}
+
+#stand_form{
+    color: white;
+    
+}
+
+.div_form{
+    padding-top: 100px;
+    width: 20%;
+    padding-left: 20%;
+    font-size: 20px;
+}
+
+input{
+    height: 25px;
+    width: 90%;
+    border-radius: 10px;
+    padding-left: 10px;
+    border-width: 3px;
+    margin-bottom: 10px;
+}
+
+select{
+    height: 25px;
+    width: 95%;
+    border-radius: 10px;
+    padding-left: 10px;
+    border-width: 3px;
+}
+
+.botao{
+    font-size: 16px;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    width: fit-content;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#med_obs{
+    width: 90%;
+    border-radius: 10px;
+    padding-left: 10px;
+    border-width: 3px;
+    margin-bottom: 10px;
+    border-color: black grey grey black;
+}
